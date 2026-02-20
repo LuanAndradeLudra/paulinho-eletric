@@ -20,6 +20,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
+            <img
+              src="https://yt3.googleusercontent.com/DKsc9A6hBFvLvrxCSpcVjxmvnKKZ1we00wXNqCFX5KOnxOqhmy_BNy07N8GL9GDphq8XKWHi5A=s160-c-k-c0x00ffffff-no-rj"
+              alt="Paulinho Eletric"
+              className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover"
+            />
             <span className="text-xl md:text-2xl font-black text-primary">
               PAULINHO
             </span>
