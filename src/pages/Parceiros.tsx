@@ -7,7 +7,7 @@ const partners = [
   {
     id: 1,
     name: 'CSGO Skins',
-    logo: 'https://paulinhoeletric.com/logo-csgoskins-pq.webp',
+    logo: 'logo-csgoskins-pq.webp',
     url: 'https://csgo-skins.com/?ref=Paulinho',
     description: 'Site oficial de skins CS2 com sorteios e promoções exclusivas',
     bonus: 'R$ 3,00 + 10% de BÔNUS',
@@ -19,7 +19,7 @@ const partners = [
   {
     id: 2,
     name: 'PirateSwap',
-    logo: 'https://paulinhoeletric.com/logo-pirateswap.svg',
+    logo: 'logo-pirateswap.svg',
     url: 'https://pirateswap.com/?ref=paulinho',
     description: 'Troque suas skins com as melhores taxas do mercado',
     bonus: '35% de BÔNUS',
@@ -115,7 +115,6 @@ const Parceiros = () => {
                   </div>
 
                   {/* Name & Description */}
-                  <h3 className="text-2xl font-bold mb-2">{partner.name}</h3>
                   <p className="text-muted-foreground text-sm mb-4">
                     {partner.description}
                   </p>

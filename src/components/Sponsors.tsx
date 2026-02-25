@@ -1,12 +1,12 @@
 const sponsors = [
   {
     name: 'CSGO Skins',
-    logo: 'https://paulinhoeletric.com/logo-csgoskins-pq.webp',
+    logo: 'logo-csgoskins-pq.webp',
     url: 'https://csgo-skins.com/?ref=Paulinho',
   },
   {
     name: 'PirateSwap',
-    logo: 'https://paulinhoeletric.com/logo-pirateswap.svg',
+    logo: 'logo-pirateswap.svg',
     url: 'https://pirateswap.com/?ref=paulinho',
   },
 ];
@@ -20,7 +20,7 @@ const Sponsors = () => {
         </h3>
         
         <div className="flex flex-wrap items-center justify-center gap-12 md:gap-16">
-          {sponsors.map((sponsor) => (
+          {sponsors.map((sponsor, index) => (
             <a
               key={sponsor.name}
               href={sponsor.url}
